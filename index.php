@@ -93,7 +93,7 @@ for ($i = 0; $i < $length; $i++) {
         </label>
     </div>
 
-     <button type="submit" name="Submit" value="Submit" class="btn btn-default"/>Show My Password!</button>
+     <button type="submit" name="Submit" value="Submit" class="btn btn-primary"/>Gimme a Password!</button>
 
 </form>
 </div> 
