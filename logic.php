@@ -3,9 +3,9 @@
 Create arrays for the words, and symbols
 */
 $words = array("one", "weather", "two", "burn", "twice", "phone", "mints", "cap", "remote", "paper", "book", "pen", "pencil");
-$symbols = array("#", "@", "*", "!", "$", "&");
+$symbolsList = array("#", "@", "*", "!", "$", "&");
 $numbers = array("1", "2", "3", "4", "5");
-$password  = "array()";
+$password  = array();
 $length = $_POST['length'];
 
 
@@ -20,17 +20,17 @@ if ( isset( $_POST['Submit'] ) ) {
 	}
 
 	if (isset( $_POST['symbols'] )) {
-		shuffle ($symbols);
+		shuffle ($symbolsList);
 		shuffle ($words);
-		$password  = array_merge($words, $symbols);
+		$password  = array_merge($words, $symbolsList);
 		shuffle ($password);
 	}
 
 	if (isset( $_POST['numbers'] )) {
 		shuffle ($numbers);
 		shuffle ($words);
-		shuffle ($symbols);
-		array_merge($words, $numbers, $symbols);
+		shuffle ($symbolsList);
+		array_merge($words, $numbers, $symbolsList);
 		$password  = array_merge($words, $numbers);
 		shuffle ($password);
 	}
