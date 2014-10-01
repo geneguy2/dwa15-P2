@@ -25,12 +25,13 @@
  .password {
 text-align: center;
 font-size: 3rem;
+font-weight: 400;
 margin-bottom: 25px;
 color: #f39c12;
-font-family: consolas,courier;
 background-color: #fff;
-display: inline-block;
+display: block;
 padding: 15px;
+border: 1px solid #ccc;
 
 }
 
