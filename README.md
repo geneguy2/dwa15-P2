@@ -1,7 +1,7 @@
 # xkcd Password Generator
 
 # Live URL
-http://p2.geneguy.me
+http://p2.geneguy.me/dwa15-P2/
 
 # Description
 A simple utility for generating xkcd style passwords.
