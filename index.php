@@ -1,4 +1,7 @@
-
+<?php
+error_reporting(-1); # Report all PHP errors
+ini_set('display_errors', 1);
+?>
 
 <?php require 'logic.php'; ?>
 
@@ -68,18 +71,30 @@
  <div class="formHolder">
  <div class="password">
        <?php 
-            //Print the password array 
+//Print the password array 
 
 for ($i = 0; $i < $length; $i++) {
     echo $password[$i] . ' ';
 
 }
+
+if (isset( $_POST['symbols'] )) {
+    shuffle ($symbolsList);
+       echo $symbolsList[0];
+    }
+
+if (isset( $_POST['numbers'] )) {
+    shuffle ($numbers);
+       echo $numbers[0];
+    }
+
+
         ?>
  </div>
 <form role="form" method="post" action="index.php">
     <div class="form-group">
-        <label for="length">Enter a number between 2-9</label>
-        <input type="text" class="form-control" name="length" placeholder="Enter number" />
+        <label for="length">Enter a number</label>
+        <input type="text" class="form-control" name="length" placeholder="Enter a number between 2-9" />
     </div>
     
      <div class="checkbox">

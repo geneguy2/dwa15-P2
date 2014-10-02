@@ -19,23 +19,6 @@ if ( isset( $_POST['Submit'] ) ) {
 		shuffle ($password);
 	}
 
-	if (isset( $_POST['symbols'] )) {
-		shuffle ($symbolsList);
-		shuffle ($words);
-		$password  = array_merge($words, $symbolsList);
-		shuffle ($password);
-	}
-
-	if (isset( $_POST['numbers'] )) {
-		shuffle ($numbers);
-		shuffle ($words);
-		shuffle ($symbolsList);
-		array_merge($words, $numbers, $symbolsList);
-		$password  = array_merge($words, $numbers);
-		shuffle ($password);
-	}
-
-
 }
 
 
