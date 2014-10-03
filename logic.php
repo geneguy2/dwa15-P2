@@ -2,7 +2,7 @@
 /*
 Create arrays for the words, and symbols
 */
-$words = array("one", "weather", "two", "burn", "twice", "phone", "mints", "cap", "remote", "paper", "book", "pen", "pencil");
+$words = array("one", "weather", "two", "burn", "twice", "phone", "mints", "cap", "remote", "paper", "book", "pen", "pencil", "red", "Karen", "dust");
 $symbolsList = array("#", "@", "*", "!", "$", "&");
 $numbers = array("1", "2", "3", "4", "5");
 $password  = array();
@@ -20,6 +20,8 @@ if ( isset( $_POST['Submit'] ) ) {
 	}
 
 }
+
+
 
 
 
