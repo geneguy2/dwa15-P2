@@ -22,6 +22,15 @@
 
  }
 
+ .explanationBox {
+ 	line-height: 27px;
+ 	color: #333;
+ 	font-size: 18px;
+ 	margin: -25px 0 0 0;
+
+
+ }
+
 .password {
 text-align: center;
 font-size: 3rem;

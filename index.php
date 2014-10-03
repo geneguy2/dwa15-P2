@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DWA15 - Project 2</title>
+    <title>Gene's Password Generator</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
   
   <div class="headline">
 
-<h1>xkcd Password Generator</h1>
+<h1>Gene's Password Generator</h1>
   </div> 
 
  
@@ -64,7 +64,8 @@
   <!-- columns -->
     <div class="container">
         <div class="row">
-  <div class="col-md-4">
+  <!-- column -->
+  <div class="col-md-6">
  <div class="formHolder">
  <div class="password">
 <?php 
@@ -108,19 +109,23 @@ if (isset( $_POST['numbers'] )) {
 
 </form>
 </div> 
-
+ <!-- column -->
  
 </div>
+ <!-- column -->
+ <div class="col-md-6">
+  <div class="explanationBox">
+  <h2>What is this?</h2>
+<p>This is a random password generator.  This app is based off of the xkcd password generator which is a generator that randomly selects combinations of words as your password instead 
+of just letters.  The idea behind using combinations of words as you password is that it is supposed to make your password more secure.</p>
 
- <div class="col-md-8">
-  <div>
-<img src="images/password_strength2.png" class="img-responsive" alt="Responsive image">
-
-  </div> 
+<p>So type a number into the box on your left to generate your password.</p>
+  
+  </div>
 </div>
  
 </div>
-
+ <!-- column -->
 </div>
  <!-- columns -->
 
