@@ -1,10 +1,10 @@
 # xkcd Password Generator
 
 # Live URL
-http://p2.geneguy.me/dwa15-P2/
+http://p2.geneguy.me
 
 # Description
-A simple utility for generating xkcd style passwords.
+A simple xkcd style random password generator.
 
 # Demo
 Coming Soon
