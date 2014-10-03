@@ -117,7 +117,7 @@ if (isset( $_POST['numbers'] )) {
   <div class="explanationBox">
   <h2>What is this?</h2>
 <p>This is a random password generator.  This app is based off of the xkcd password generator which is a generator that randomly selects combinations of words as your password instead 
-of just letters.  The idea behind using combinations of words as you password is that it is supposed to make your password more secure.</p>
+of just letters.  The idea behind using combinations of words as your password is that it is likely to make your password more secure.</p>
 
 <p>So type a number into the box on your left to generate your password.</p>
   
