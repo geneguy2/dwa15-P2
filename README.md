@@ -7,7 +7,7 @@ http://p2.geneguy.me
 A simple xkcd style random password generator.
 
 # Demo
-Coming Soon
+http://screencast.com/t/aasffRUo2S
 
 # Details for teaching team
 This is my password generator.
