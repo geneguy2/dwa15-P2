@@ -19,7 +19,15 @@ if ( isset( $_POST['Submit'] ) ) {
 		shuffle ($password);
 	}
 
+	else {
+
+		$length = 4;
+	}
+
+	
+
 }
+
 
 
 

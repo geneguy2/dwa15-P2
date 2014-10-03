@@ -67,9 +67,9 @@
   <div class="col-md-4">
  <div class="formHolder">
  <div class="password">
-       <?php 
-//Print the password array 
+<?php 
 
+//Print the password array 
 for ($i = 0; $i < $length; $i++) {
     echo $password[$i] . ' ';
 
@@ -85,13 +85,12 @@ if (isset( $_POST['numbers'] )) {
        echo $numbers[0];
     }
 
-
-        ?>
+?>
  </div>
 <form role="form" method="post" action="index.php">
     <div class="form-group">
-        <label for="length">Enter a number</label>
-        <input type="text" class="form-control" name="length" placeholder="Enter a number between 2-9" />
+        <label for="length">Enter a number to generate a password</label>
+        <input type="text" class="form-control" name="length" placeholder="Enter a number" />
     </div>
     
      <div class="checkbox">
